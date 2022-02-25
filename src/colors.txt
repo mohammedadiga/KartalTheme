@@ -1,0 +1,101 @@
+Body Color
+
+Background Defult
+#E4E7E9
+background Dark
+#191B21
+
+card color
+Defult
+#FFFFFF
+Dark
+#232731
+
+white
+#FFFFFF
+Black
+#000000
+
+
+primary color
+
+primary Defult and dark
+#736FB2 primary Purple
+#5080C1 primary blue
+#F29FBF primary pink
+#FDCE75 primary Yellow
+
+primary Activ And Fuces Defult and dark
+#5C5BA5 primary Activ and fucus purple
+#24519E primary Activ and fucus blue
+#DC7EA0 primary Activ and fucus pink
+#FABA59 primary Activ and fucus yellow
+
+primary lihgt
+Defult
+#CDC5E3 primary Activ and fucus purple
+#D1EBF7 primary Activ and fucus blue
+#F6BCD2 primary Activ and fucus pink
+#FEDC9C primary Activ and fucus yellow
+
+primary lihgt
+Dark
+#32315A primary Activ and fucus purple
+#294D78 primary Activ and fucus blue
+#9A345C primary Activ and fucus pink
+#A36A1F primary Activ and fucus yellow
+
+Them Color
+white       light       Activ and fucus      
+#FFFFFF     #F6F6F6     #DADADA
+
+dark        light       Activ and fucus
+#232731     #161921     #1F232C
+
+Defult
+light       light       Activ and fucus
+#DADADA     #E3E3E3     #B2B2B2
+
+Dark
+light       light       Activ and fucus
+#878787     #7F7F80     #706F6F
+
+Defult
+Secondary   light       Activ and fucus
+#B2B2B2     #C6C6C6     #9D9D9C
+
+Dark
+Secondary   light       Activ and fucus
+#B2B2B2     #5D5F5E     #9D9D9C
+
+Defult
+success     light       Activ and fucus
+#53B68B     #8CCAAE     #4DA981
+
+Dark
+success     light       Activ and fucus
+#53B68B     #2D684C     #4DA981
+
+Defult
+info        light       Activ and fucus
+#7663A9     #9185BE     #6E5C9D
+
+Dark
+info        light       Activ and fucus
+#7663A9     #433966     #6E5C9D
+
+Defult
+warning     light       Activ and fucus
+#F5C22A     #F4CE6F     #F3B430
+
+Dark
+warning     light       Activ and fucus
+#F5C22A     #A07113    #F3B430
+
+Defult
+danger      light       Activ and fucus
+#E8443A     #E58583     #DE2E2A
+
+Dark
+danger      light       Activ and fucus
+#E8443A     #84191A     #E62A26

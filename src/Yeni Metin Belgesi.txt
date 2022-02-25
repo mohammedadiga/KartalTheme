@@ -1,0 +1,54 @@
+color
+
+gray-900 #202224
+gray-800 #393C40
+gray-700 #474B4F
+gray-600 #6F7379
+gray-500 #AAAEB3
+gray-400 #C6CACF
+gray-300 #EBEBEB
+gray-200 #ECEDEF
+gray-100 #FFFFFF
+
+Colors
+
+blue #007Aff
+
+Green #24CCCB8
+
+Orange #FF9500
+
+Yellow #FFD322
+
+red #FF5967
+
+Purple #9D61FF
+
+gray #818891
+
+Dark #5F6979
+
+lihgt #F5F6FA
+
+
+
+Color Primay
+
+green #1DE9B6
+
+red   #F44236	
+
+purple #A389D4
+
+blue   #04A9FS
+
+yellow #F5C22B
+
+
+Gradients
+
+#899FD4 / #A389D4
+
+#1DC5E9 / #1DE9B6
+
+#049DFS / #04A9F5

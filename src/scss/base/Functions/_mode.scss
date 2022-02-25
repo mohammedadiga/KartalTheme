@@ -1,0 +1,56 @@
+//
+// Get Mode
+//
+
+@function getMode() {
+  @if (variable-exists(mode)) {
+    @return $mode;
+  } @else {
+    @return default;
+  }
+}
+
+@function isThemeModeDark() {
+  @if (getMode() == dark) {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function isThemeModeDefault() {
+  @if (getMode() == default) {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+//
+// Get primary Mode
+//
+
+@function getPrimaryMode() {
+    @if (variable-exists(primaryMode)) {
+        @return $primaryMode;
+  } @else {
+        @return false;
+  }
+}
+
+
+@function isPrimaryMode() {
+  @if (getPrimaryMode() == theme_purple) {
+    @return theme_purple;
+  }@else if (getPrimaryMode() == theme_blue) {
+    @return theme_blue;
+  }@else if (getPrimaryMode() == theme_pink) {
+    @return theme_pink;
+  }@else if (getPrimaryMode() == theme_yellow) {
+    @return theme_yellow;
+  }@else{
+    @return theme_purple;
+  }
+}
+
+
