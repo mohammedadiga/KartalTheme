@@ -63,36 +63,26 @@ $colors: (
 
 // Primary colors
 
-@if (isPrimaryMode() == theme_purple){
-    $primary:               #736FB2 !global !default;
-    $primary-active:        #5C5BA5 !global !default; // Custom variable
-    $primary-light:         if(isThemeModeDark(), #32315A, #CDC5E3) !global !default; // Custom variable
-    $primary-inverse:       $white !global !default;  // Custom variable
-}
-@else if (isPrimaryMode() == theme_blue){
-    $primary:               #5080C1 !global !default;
-    $primary-active:        #24519E !global !default; // Custom variable
-    $primary-light:         if(isThemeModeDark(), #294D78, #D1EBF7) !global !default; // Custom variable
-    $primary-inverse:       $white !global !default;  // Custom variable
-}
-@else if (isPrimaryMode() == theme_pink){
-    $primary:               #F29FBF !global !default;
-    $primary-active:        #DC7EA0 !global !default; // Custom variable
-    $primary-light:         if(isThemeModeDark(), #9A345C, #F6BCD2) !global !default; // Custom variable
-    $primary-inverse:       $white !global !default;  // Custom variable
-}
-@else if (isPrimaryMode() == theme_yellow){
-    $primary:               #FDCE75 !global !default;
-    $primary-active:        #FABA59 !global !default; // Custom variable
-    $primary-light:         if(isThemeModeDark(), #A36A1F, #FEDC9C) !global !default; // Custom variable
-    $primary-inverse:  	    $white !global !default;  // Custom variable
-}
-@else{
-    $primary:               #736FB2 !global !default;
-    $primary-active:        #5C5BA5 !global !default; // Custom variable
-    $primary-light:         if(isThemeModeDark(), #32315A, #CDC5E3) !default; // Custom variable
-    $primary-inverse:       $white !global !default;  // Custom variable
-}
+$primary-blue:              #5080C1 !default;
+$primary-blue-active:       #24519E !default; // Custom variable
+$primary-blue-light:        if(isThemeModeDark(), #294D78, #D1EBF7) !default; // Custom variable
+$primary-blue-inverse:      $white !default;  // Custom variable
+
+$primary-pink:              #F29FBF !default;
+$primary-pink-active:       #DC7EA0 !default; // Custom variable
+$primary-pink-light:        if(isThemeModeDark(), #9A345C, #F6BCD2) !default; // Custom variable
+$primary-pink-inverse:      $white !default;  // Custom variable
+
+$primary-yellow:            #FDCE75 !default;
+$primary-yellow-active:     #FABA59 !default; // Custom variable
+$primary-yellow-light:      if(isThemeModeDark(), #A36A1F, #FEDC9C) !default; // Custom variable
+$primary-yellow-inverse:    $white !default;  // Custom variable
+
+$primary:                   #736FB2 !default;
+$primary-active:            #5C5BA5 !default; // Custom variable
+$primary-light:             if(isThemeModeDark(), #32315A, #CDC5E3) !default; // Custom variable
+$primary-inverse:           $white !default;  // Custom variable
+
 
 // Dark colors
 $dark:          		    if(isThemeModeDark(),#232731,#FFFFFF) !default; // Bootstrap variable
@@ -146,6 +136,9 @@ $white-inverse:    			$gray-600 !default; // Custom variable
 $theme-colors: (
 	"white":      $white,  // custom color type
     "primary":    $primary,
+    "primary-blue":     $primary-blue,
+    "primary-pink":    $primary-pink,
+    "primary-yellow":    $primary-yellow,
     "light":      $light,
     "secondary":  $secondary,
     "success":    $success,
@@ -159,6 +152,9 @@ $theme-colors: (
 $theme-active-colors: (
 	"white":      $white-active,   // custom color type
     "primary":    $primary-active,
+    "primary-blue":    $primary-blue-active,
+    "primary-pink":    $primary-pink-active,
+    "primary-yellow":    $primary-yellow-active,
     "secondary":  $secondary-active,
     "light":      $light-active,
     "success":    $success-active,
@@ -172,6 +168,9 @@ $theme-active-colors: (
 $theme-inverse-colors: (
 	"white":      $white-inverse,
     "primary":    $primary-inverse,
+    "primary-blue":    $primary-blue-inverse,
+    "primary-pink":    $primary-pink-inverse,
+    "primary-yellow":    $primary-yellow-inverse,
     "secondary":  $secondary-inverse,
     "light":      $light-inverse,
     "success":    $success-inverse,
@@ -185,6 +184,9 @@ $theme-inverse-colors: (
 $theme-light-colors: (
     "success":    $success-light,
     "primary":    $primary-light,
+    "primary-blue":    $primary-blue-light,
+    "primary-pink":    $primary-pink-light,
+    "primary-yellow":    $primary-yellow-light,
     "info":       $info-light,
     "warning":    $warning-light,
     "danger":     $danger-light,
@@ -195,6 +197,9 @@ $theme-light-colors: (
 $theme-text-colors: (
     "white":      $white,
     "primary":    $primary,
+    "primary-blue":    $primary-blue,
+    "primary-pink":    $primary-pink,
+    "primary-yellow":    $primary-yellow,
     "secondary":  $secondary,
     "light":      $light,
     "success":    $success,

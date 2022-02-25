@@ -21,7 +21,10 @@
   --bs-gray-800: #3F4254;
   --bs-gray-900: #181C32;
   --bs-white: #ffffff;
-  --bs-primary: #5080C1;
+  --bs-primary: #736FB2;
+  --bs-primary-blue: #5080C1;
+  --bs-primary-pink: #F29FBF;
+  --bs-primary-yellow: #FDCE75;
   --bs-light: #F5F8FA;
   --bs-secondary: #B2B2B2;
   --bs-success: #53B68B;
@@ -30,7 +33,10 @@
   --bs-danger: #E8443A;
   --bs-dark: #FFFFFF;
   --bs-white-rgb: 255, 255, 255;
-  --bs-primary-rgb: 80, 128, 193;
+  --bs-primary-rgb: 115, 111, 178;
+  --bs-primary-blue-rgb: 80, 128, 193;
+  --bs-primary-pink-rgb: 242, 159, 191;
+  --bs-primary-yellow-rgb: 253, 206, 117;
   --bs-light-rgb: 245, 248, 250;
   --bs-secondary-rgb: 178, 178, 178;
   --bs-success-rgb: 83, 182, 139;
@@ -55,7 +61,10 @@
 
 :root {
   --bs-active-white:#F5F8FA;
-  --bs-active-primary:#24519E;
+  --bs-active-primary:#5C5BA5;
+  --bs-active-primary-blue:#24519E;
+  --bs-active-primary-pink:#DC7EA0;
+  --bs-active-primary-yellow:#FABA59;
   --bs-active-light:#E4E6EF;
   --bs-active-secondary:#9D9D9C;
   --bs-active-success:#4DA981;
@@ -63,7 +72,10 @@
   --bs-active-warning:#F3B430;
   --bs-active-danger:#DE2E2A;
   --bs-active-dark:#DADADA;
-  --bs-light-primary:#D1EBF7;
+  --bs-light-primary:#CDC5E3;
+  --bs-light-primary-blue:#D1EBF7;
+  --bs-light-primary-pink:#F6BCD2;
+  --bs-light-primary-yellow:#FEDC9C;
   --bs-light-success:#8CCAAE;
   --bs-light-info:#9185BE;
   --bs-light-warning:#F4CE6F;

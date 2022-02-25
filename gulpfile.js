@@ -11,7 +11,7 @@ const terser = require('gulp-terser');
 
 // scss
 function compilescss(){
-    return src('src/scss/*.scss')
+    return src('src/**/*.scss')
     .pipe(sass().on('error', sass.logError))
     // .pipe(prefix())
     // .pipe(minify())
